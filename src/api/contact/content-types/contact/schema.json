@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "İletişim"
+    },
+    "description": {
+      "type": "blocks",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "default": "Kaynarca / Pendik / İstanbul"
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "default": "0533 143 83 66"
+    },
+    "workingHours": {
+      "type": "string",
+      "required": true,
+      "default": "7/24 Hizmet"
+    },
+    "mapLocation": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
